@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "481484542099",
+    "project_id": "fortowing-c595f",
+    "storage_bucket": "fortowing-c595f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:481484542099:android:061964c63a5cd1b815fd66",
+        "android_client_info": {
+          "package_name": "com.school.towappmvp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "481484542099-0a4dl21sj0h0gepmvdq8jdkljdotc7c4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.school.towappmvp",
+            "certificate_hash": "4b95d4a4e791d3f5a78db8a7c562abbdd02ef323"
+          }
+        },
+        {
+          "client_id": "481484542099-nhdoa8aioak4hkuutohkhjbk4bunki7e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClEPQE_mpxBDfU8F3dC7AlaKEt8Dd4eeA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "481484542099-nhdoa8aioak4hkuutohkhjbk4bunki7e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

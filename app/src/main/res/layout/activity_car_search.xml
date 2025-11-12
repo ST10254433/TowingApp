@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/grey_300">
+
+    <EditText
+        android:id="@+id/etNumberPlate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Number Plate"
+        android:padding="12dp"
+        android:background="@drawable/edittext_background"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
+        android:id="@+id/btnSearchCar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search Car"
+        android:backgroundTint="@color/primaryColor"
+        android:textColor="@color/white"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/tvCarResults"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Car details will appear here"
+        android:textSize="16sp"
+        android:textColor="@color/black"/>
+</LinearLayout>

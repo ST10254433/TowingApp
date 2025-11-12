@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_grey_gradient"
+    android:fillViewport="true"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:id="@+id/main_root"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- 👤 Profile Section -->
+        <ImageView
+            android:id="@+id/imgProfile"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="12dp"
+            android:src="@android:drawable/ic_lock_idle_charging"
+            android:background="@drawable/circle_bg"
+            android:elevation="6dp"
+            android:padding="6dp" />
+
+        <TextView
+            android:id="@+id/tvWelcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome!"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/primaryColor"
+            android:layout_marginBottom="24dp" />
+
+        <!-- 📊 Dashboard Grid -->
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:alignmentMode="alignMargins"
+            android:rowOrderPreserved="false"
+            android:useDefaultMargins="true">
+
+            <!-- 🚗 Requests -->
+            <LinearLayout
+                android:id="@+id/cardRequests"
+                style="@style/DashboardCard"
+                android:background="@drawable/bg_card">
+                <TextView
+                    android:text="🚗 Tow Requests"
+                    style="@style/CardLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/tvTotalTowed"
+                    style="@style/CardCounter"
+                    android:text="0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <!-- 📍 Track Vehicles -->
+            <LinearLayout
+                android:id="@+id/cardVehicles"
+                style="@style/DashboardCard"
+                android:background="@drawable/bg_card">
+                <TextView
+                    android:text="📍 Track Vehicles"
+                    style="@style/CardLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/tvTotalTracked"
+                    style="@style/CardCounter"
+                    android:text="0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <!-- 🚨 SOS -->
+            <LinearLayout
+                android:id="@+id/cardSOS"
+                style="@style/DashboardCard"
+                android:background="@drawable/bg_card">
+                <TextView
+                    android:text="🚨 SOS Alerts"
+                    style="@style/CardLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <!-- 🔎 Search Cars -->
+            <LinearLayout
+                android:id="@+id/cardSearchCars"
+                style="@style/DashboardCard"
+                android:background="@drawable/bg_card">
+                <TextView
+                    android:text="🔎 Search Cars"
+                    style="@style/CardLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <!-- 🧾 Booking -->
+            <LinearLayout
+                android:id="@+id/cardBooking"
+                style="@style/DashboardCard"
+                android:background="@drawable/bg_card">
+                <TextView
+                    android:text="🧾 Book Service"
+                    style="@style/CardLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <!-- 🤝 Partner -->
+            <LinearLayout
+                android:id="@+id/cardPartners"
+                style="@style/DashboardCard"
+                android:background="@drawable/bg_card">
+                <TextView
+                    android:text="🤝 Partnerships"
+                    style="@style/CardLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <!-- 📞 Contact -->
+            <LinearLayout
+                android:id="@+id/cardContact"
+                style="@style/DashboardCard"
+                android:background="@drawable/bg_card">
+                <TextView
+                    android:text="📞 Contact &amp; Navigate"
+                    style="@style/CardLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+        </GridLayout>
+
+        <!-- 🚪 Logout -->
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#555555"
+            android:layout_marginTop="24dp"
+            android:elevation="6dp"
+            android:fontFamily="sans-serif-medium" />
+
+    </LinearLayout>
+</ScrollView>

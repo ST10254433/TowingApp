@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/grey_200"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Book a Tow Service"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:paddingBottom="16dp" />
+
+    <Spinner
+        android:id="@+id/spnServiceType"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:entries="@array/service_types"
+        android:background="@drawable/spinner_bg"
+        android:padding="12dp" />
+
+    <EditText
+        android:id="@+id/etLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Pickup Location"
+        android:inputType="text"
+        android:padding="12dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_bg" />
+
+    <EditText
+        android:id="@+id/etDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Additional Details (optional)"
+        android:inputType="textMultiLine"
+        android:padding="12dp"
+        android:layout_marginTop="12dp"
+        android:minLines="3"
+        android:background="@drawable/rounded_bg" />
+
+    <Button
+        android:id="@+id/btnBookService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Book Service"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/purple_500"
+        android:textColor="@color/white" />
+
+</LinearLayout>

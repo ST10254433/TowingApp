@@ -1,0 +1,61 @@
+<resources>
+    <!-- 🎨 Primary Brand Colors -->
+    <color name="primaryColor">#1565C0</color> <!-- Deep Blue -->
+    <color name="primaryDarkColor">#0D47A1</color>
+    <color name="primaryLightColor">#5E92F3</color>
+
+    <!-- 🔸 Accent / Secondary -->
+    <color name="accentColor">#FF6F00</color> <!-- Bright Orange -->
+    <color name="accentLight">#FFA040</color>
+    <color name="accentDark">#C43E00</color>
+
+    <!-- ⚪ Neutral Greys -->
+    <color name="grey_50">#FAFAFA</color>
+    <color name="grey_100">#F5F5F5</color> <!-- Lightest Grey -->
+    <color name="grey_200">#EEEEEE</color>
+    <color name="grey_300">#E0E0E0</color>
+    <color name="grey_400">#BDBDBD</color>
+    <color name="grey_500">#9E9E9E</color>
+    <color name="grey_600">#757575</color>
+    <color name="grey_700">#616161</color>
+    <color name="grey_800">#424242</color>
+    <color name="grey_900">#212121</color>
+
+    <!-- ✅ Alias for compatibility -->
+    <color name="greyLight">@color/grey_100</color>
+
+    <!-- Neutral Backgrounds -->
+    <color name="backgroundColor">@color/grey_100</color>
+    <color name="surfaceColor">@color/white</color>
+    <color name="dividerColor">@color/grey_300</color>
+
+    <!-- ✅ For Dark Theme Variants -->
+    <color name="backgroundDark">@color/black</color>
+    <color name="surfaceDark">@color/grey_900</color>
+    <color name="dividerDark">@color/grey_700</color>
+
+    <!-- 🚦 Status & Feedback Colors -->
+    <color name="successGreen">#4CAF50</color>
+    <color name="warningYellow">#FFC107</color>
+    <color name="errorRed">#D32F2F</color>
+    <color name="infoBlue">#2196F3</color>
+
+    <!-- ✍️ Text Colors -->
+    <color name="textPrimary">@color/grey_900</color>
+    <color name="textSecondary">@color/grey_600</color>
+    <color name="textOnPrimary">@color/white</color>
+    <color name="textOnAccent">@color/white</color>
+
+    <!-- For Dark Mode -->
+    <color name="textPrimaryDark">@color/white</color>
+    <color name="textSecondaryDark">@color/grey_400</color>
+
+    <!-- 💜 Purple Variants (extra styling options) -->
+    <color name="purple_200">#BB86FC</color>
+    <color name="purple_500">#6200EE</color>
+    <color name="purple_700">#3700B3</color>
+
+    <!-- Basics -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+</resources>

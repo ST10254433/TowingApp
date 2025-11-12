@@ -1,0 +1,39 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme (Dark mode) -->
+    <style name="Base.Theme.TowAppMVP" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <!-- Brand Colors (use darker tones or same but background is dark) -->
+        <item name="colorPrimary">@color/primaryDarkColor</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/accentColor</item>
+
+        <!-- Backgrounds -->
+        <item name="android:colorBackground">@color/black</item>
+
+        <!-- Text Colors -->
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">@color/greyLight</item>
+
+        <!-- Buttons -->
+        <item name="android:buttonStyle">@style/Widget.App.Button.Dark</item>
+
+        <!-- Animations -->
+        <item name="android:windowAnimationStyle">@style/AppAnimations</item>
+    </style>
+
+    <style name="Theme.TowAppMVP" parent="Base.Theme.TowAppMVP" />
+
+    <!-- Custom button style for dark theme -->
+    <style name="Widget.App.Button.Dark" parent="Widget.Material3.Button">
+        <item name="android:backgroundTint">@color/accentColor</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <!-- Animations -->
+    <style name="AppAnimations">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_in_right</item>
+        <item name="android:activityOpenExitAnimation">@anim/slide_out_left</item>
+        <item name="android:activityCloseEnterAnimation">@anim/slide_in_left</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_out_right</item>
+    </style>
+</resources>

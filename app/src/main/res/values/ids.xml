@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ===================== -->
+    <!-- 🌐 Global / Root IDs -->
+    <!-- ===================== -->
+    <item name="main_root" type="id" />
+    <item name="toolbar_main" type="id" />
+    <item name="container_main" type="id" />
+
+    <!-- ===================== -->
+    <!-- 👤 User / Profile -->
+    <!-- ===================== -->
+    <item name="tvWelcome" type="id" />
+    <item name="imgProfile" type="id" />
+    <item name="btnLogout" type="id" />
+
+    <!-- ===================== -->
+    <!-- 📊 Dashboard Counters -->
+    <!-- ===================== -->
+    <item name="tvTotalTowed" type="id" />
+    <item name="tvTotalTracked" type="id" />
+    <item name="tvTotalRequests" type="id" />
+    <item name="tvVehiclesTracked" type="id" />
+    <item name="tvPendingSOS" type="id" />
+
+    <!-- ===================== -->
+    <!-- 🚘 Dashboard Cards -->
+    <!-- ===================== -->
+    <item name="cardRequests" type="id" />
+    <item name="cardVehicles" type="id" />
+    <item name="cardSOS" type="id" />
+    <item name="cardSearchCars" type="id" />
+    <item name="cardBooking" type="id" />
+    <item name="cardPartners" type="id" />
+    <item name="cardContact" type="id" />
+
+    <!-- ===================== -->
+    <!-- 🔍 Car Search -->
+    <!-- ===================== -->
+    <item name="etNumberPlate" type="id" />
+    <item name="btnSearchCar" type="id" />
+    <item name="tvCarResults" type="id" />
+
+    <!-- ===================== -->
+    <!-- 🚗 Track Tow -->
+    <!-- ===================== -->
+    <item name="tvTrackTitle" type="id" />
+    <item name="tvStatus" type="id" />
+    <item name="progressTow" type="id" />
+    <item name="btnRefreshStatus" type="id" />
+
+    <!-- ===================== -->
+    <!-- 🔐 Login / Register -->
+    <!-- ===================== -->
+    <item name="inputEmail" type="id" />
+    <item name="inputPassword" type="id" />
+    <item name="btnLogin" type="id" />
+    <item name="btnRegister" type="id" />
+    <item name="btnGoogleSignIn" type="id" />
+
+    <!-- ===================== -->
+    <!-- 🚨 SOS -->
+    <!-- ===================== -->
+    <item name="btnSOSCall" type="id" />
+    <item name="btnSOSLocation" type="id" />
+
+    <!-- ===================== -->
+    <!-- 🕹 Navigation Buttons -->
+    <!-- ===================== -->
+    <item name="btnGoRequestTow" type="id" />
+    <item name="btnGoTrackTow" type="id" />
+    <item name="btnGoCarSearch" type="id" />
+    <item name="btnGoSOS" type="id" />
+
+    <!-- ===================== -->
+    <!-- 💬 Notifications -->
+    <!-- ===================== -->
+    <item name="btnNotificationBell" type="id" />
+    <item name="tvNotificationCount" type="id" />
+
+    <!-- ===================== -->
+    <!-- 💦 Splash -->
+    <!-- ===================== -->
+    <item name="imgLogo" type="id" />
+</resources>

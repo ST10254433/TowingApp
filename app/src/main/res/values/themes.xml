@@ -1,0 +1,28 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme (Light mode) -->
+    <style name="Base.Theme.TowAppMVP" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <!-- Brand Colors -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryDarkColor</item>
+        <item name="colorAccent">@color/accentColor</item>
+
+        <!-- Backgrounds -->
+        <item name="android:colorBackground">@color/backgroundColor</item>
+
+        <!-- Text Colors -->
+        <item name="android:textColorPrimary">@color/textPrimary</item>
+        <item name="android:textColorSecondary">@color/textSecondary</item>
+
+        <!-- Buttons & widgets -->
+        <item name="android:buttonStyle">@style/Widget.App.Button</item>
+    </style>
+
+    <style name="Theme.TowAppMVP" parent="Base.Theme.TowAppMVP" />
+
+    <!-- Custom button style -->
+    <style name="Widget.App.Button" parent="Widget.Material3.Button">
+        <item name="android:backgroundTint">@color/accentColor</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+</resources>

@@ -1,0 +1,40 @@
+<resources>
+    <!-- 🌍 App Info -->
+    <string name="app_name">MatomeJames Auto</string>
+    <string name="splash_title">MatomeJames</string>
+    <string name="welcome_user">Welcome, %1$s 👋\nMatomeJames Autobody</string>
+
+    <!-- 🏠 Dashboard -->
+    <string name="title_dashboard">Towing Dashboard</string>
+    <string name="requests">Requests</string>
+    <string name="vehicles">Vehicles</string>
+    <string name="sos_alerts">SOS Alerts</string>
+
+    <!-- 🚗 Navigation Buttons -->
+    <string name="request_tow">🚗 Request Tow</string>
+    <string name="track_tow">📍 Track Tow</string>
+    <string name="search_cars">🔎 Search Cars</string>
+    <string name="sos">🚨 SOS</string>
+
+    <!-- 🔐 Authentication -->
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="sign_in_google">Sign in with Google</string>
+    <string name="logout">Logout</string>
+
+    <!-- ⚠️ Feedback & Errors -->
+    <string name="signed_out">Signed out successfully.</string>
+    <string name="login_failed">Login failed. Please try again.</string>
+    <string name="register_failed">Registration failed. Please try again.</string>
+    <string name="field_required">This field is required.</string>
+    <string name="search_no_results">No cars found with that plate.</string>
+    <string name="search_success">Car found!</string>
+
+    <!-- 🌐 Google / Firebase -->
+    <string name="google_maps_key">YOUR_GOOGLE_MAPS_KEY_HERE</string>
+    <string name="default_web_client_id">
+        481484542099-0a4dl21sj0h0gepmvdq8jdkljdotc7c4.apps.googleusercontent.com
+    </string>
+</resources>
